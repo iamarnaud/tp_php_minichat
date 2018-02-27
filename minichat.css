@@ -1,0 +1,62 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+#comment {
+    margin: auto;
+    width: 600px;
+    height: 250px;
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+#zonecommentaire{
+    margin: auto;
+    margin-top: 10px;
+    width: 700px;
+    height: 800px;
+    border: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 50px;
+}
+
+.nomlabel {
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.champ {
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+#validation {
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
